@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 
 # ============================================================
-# CONFIGURATION
+# CONFIGURATION FOR BILLY'S DATASET CLEANER
 # ============================================================
 
 DATASET = Path(r"W:\dataset\Final\_vehicledataset")
@@ -33,8 +33,8 @@ IMAGE_EXTENSIONS = {
 }
 
 # Images smaller than this are reported as suspicious.
-MIN_WIDTH = 64
-MIN_HEIGHT = 64
+MIN_WIDTH = 640
+MIN_HEIGHT = 640
 
 # If True, CLIP will be used to look for possible wrong labels.
 USE_CLIP = True
